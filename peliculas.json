@@ -1,0 +1,93 @@
+[
+    {
+        "id":"1",
+        "nombre": "Halloween",
+        "precio": 50,
+        "img": "https://elcadillacnegro.files.wordpress.com/2018/10/aa68_tp_00019-0.jpg",
+        "informacion": "Han pasado 40 años desde que Laurie Strode sobrevivió a un feroz ataque del asesino enloquecido Michael Myers en la noche de Halloween. Encerrado en una institución, Myers logra escapar cuando su traslado en autobús sale terriblemente mal. Laurie ahora se enfrenta a un enfrentamiento aterrador cuando el loco enmascarado regresa a Haddonfield",
+        "trailer":"https://www.youtube.com/watch?v=ek1ePFp-nBI"
+    },
+
+    {
+        "id":"2",
+        "nombre": "Coraline y la puerta secreta",
+        "precio":25,
+        "img": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/980px/public/media/image/2019/10/peliculas-dibujos-halloween-coraline.jpg?itok=ZCuw0aOb",
+        "informacion":"Una niña descubre una puerta secreta en su nueva casa y entra a una realidad alterna que la refleja fielmente de muchas formas.",
+        "trailer": "https://www.youtube.com/watch?v=m9bOpeuvNwY"
+    },
+
+    {
+        "id": "3",
+        "nombre": "Hasta el ultimo hombre",
+        "precio": 45,
+        "img": "https://4.bp.blogspot.com/-yvoMjEXJ8Tk/WKI-npJwcVI/AAAAAAAACqM/vLRNxJajV28vrMXG8XYPGv5fL_JpUexiACLcB/s1600/7.jpg",
+        "informacion": "Esta es la historia de Desmond T. Doss, un hombre contrario a la violencia que combatió como médico en la Segunda Guerra Mundial sin portar un arma. No disparó ni una bala, pero salvó a 75 personas de la muerte en la batalla de la isla de Okinawa. Gracias a su coraje, pasó de ser el objeto de las burlas de sus compañeros a ser reconocido por su enorme valía con la entrega de la Medalla de Honor del Congreso, otorgada por primera vez a un objetor de conciencia.",
+        "trailer": "https://www.youtube.com/watch?v=s2-1hz1juBI"
+    },
+
+    {
+        "id":"4",
+        "nombre":"Guerra mundial Z",
+        "precio": 35,
+        "img": "https://pics.filmaffinity.com/Guerra_Mundial_Z-349392750-large.jpg",
+        "informacion": "Cuando una pandemia de zombis amenaza con destruir a la humanidad, un ex-investigador de Naciones Unidas es obligado a regresar al servicio para intentar descubrir la fuente de la infección.",
+        "trailer": "https://www.youtube.com/watch?v=Md6Dvxdr0AQ"
+    },
+
+    {
+        "id":"5",
+        "nombre":"Batman: El caballero de la noche",
+        "precio": 70,
+        "img": "https://i0.wp.com/www.innworld.in/wp-content/uploads/2020/07/fgdjhghjfg.jpg?fit=1450%2C967&ssl=1",
+        "informacion": "Con la ayuda del teniente Jim Gordon y del Fiscal del Distrito Harvey Dent, Batman mantiene a raya el crimen organizado en Gotham. Todo cambia cuando aparece el Joker, un nuevo criminal que desencadena el caos y tiene aterrados a los ciudadanos.",
+        "trailer":"https://www.youtube.com/watch?v=EXeTwQWrcwY"
+    },
+
+
+    {
+        "id":"6",
+        "nombre": "Piratas del caribe: En el fin del mundo",
+        "precio": 40,
+        "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/piratas-del-caribe-en-el-fin-del-mundo-2007-con-johnny-depp-y-orlando-bloom-1594422723.jpg",
+        "informacion": "Will Turner y Elizabeth Swann  unen fuerzas con el Capitán Barbossa  para liberar a Jack Sparrow  del encierro de Davy Jones. Mientras tanto, la tripulación del barco fantasma El Holandés Volador causa estragos en los Siete Mares. Los amigos deben navegar a través de aguas peligrosas para enfrentarse al pirata chino Sao Feng  y, finalmente, ellos deben decidir un lado de la batalla cuando está en juego la vida del pirata.",
+        "trailer": "https://www.youtube.com/watch?v=HKSZtp_OGHY"
+    },
+
+    {
+        "id":"7",
+        "nombre": "Buscando a Nemo",
+        "precio":55,
+        "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nemo-disney-1623827286.jpg",
+        "informacion":"Nemo, un pequeño pececillo, muy querido y protegido por su padre, se pierde fuera de la gran barrera del arrecife australiano, después de ser capturado por este arrecife, Nemo terminará en una pecera en Sidney. Su padre, un pez payaso, parte en su búsqueda y se embarca en una peligrosa aventura con Dory, un pez con muy poca memoria. Al mismo tiempo, Nemo y sus nuevos amigos ya traman un plan para escapar de la pecera.",
+        "trailer": "https://www.youtube.com/watch?v=9oQ628Seb9w"
+    },
+
+    {
+        "id":"8",
+        "nombre": "John Wick",
+        "precio": 45,
+        "img": "https://images.amcnetworks.com/amctv.la/wp-content/uploads/2018/11/john-wick.jpg",
+        "informacion": "John Wick, un exasesino a sueldo, se enfrenta al mafioso Viggo Tarazov, quien ofrece una recompensa a aquel que logre acabar con la vida de Wick.",
+        "trailer":"https://www.youtube.com/watch?v=C0BMx-qxsP4"
+    },
+
+    {
+        "id":"9",
+        "nombre":"The Lost World: Jurassic Park",
+        "precio": 50,
+        "img":"https://i.blogs.es/c1b5c9/el-mundo-perdido-poster/1366_2000.jpg",
+        "informacion": "El creador del primer Parque Jurásico vuelve a contactar con el físico experto en teoría del caos Ian Malcolm. Le encarga que supervise la posibilidad de un segundo parque con nuevos dinosaurios.",
+        "trailer":"https://www.youtube.com/watch?v=RxrvaneULkE"
+    },
+
+    {
+        "id":"10",
+        "nombre":"El ultimo samurai",
+        "precio": 45,
+        "img": "https://hips.hearstapps.com/es.h-cdn.co/teleprogramaes/images/programacion-tv/2018/junio/el-ultimo-samurai-antena-3-tom-cruise-ken-watanabe/12923226-1-esl-ES/el-ultimo-samurai-con-tom-cruise-y-ken-watanabe.jpg?crop=1xw:0.7272727272727273xh;center,top&resize=1200:*",
+        "informacion": "1876. El capitán Nathan Algren es un hombre que vive atormentado por los recuerdos de la guerra, pero el mundo ha cambiado y el pragmatismo ha reemplazado al valor, el interés personal ha ocupado el lugar del sacrificio y el sentido del honor ha desaparecido. En un lejano país, otro soldado ve también cómo su modo de vida está a punto de desintegrarse. Es Katsumoto, el último líder del antiguo linaje de los venerados guerreros samuráis.",
+        "trailer":"https://www.youtube.com/watch?v=T50_qHEOahQ"
+    }
+        
+]

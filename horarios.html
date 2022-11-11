@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body class="body_horarios">
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Horarios</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./registarte.html">Registrarse</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+
+  <div id="paso1">
+    <select id="seleccionar_pelis" class="select" style="margin-top: 10px;height: 80px;" required>
+      <option value="none">seleccione una pelicula</option>
+    </select>
+  </div>
+  
+
+
+<div id="paso2" class="no-mostrar">
+  
+  <form id="formulario" class="formulario">
+
+    <input id="input" type="date" class="fecha" required style="margin-top: 10px; height: 80px;">
+    <input calss="nombre" type="text" placeholder="nombre" id="nombres" required style="margin-top: 10px;height: 80px;">
+    <select  id="entradas" style="margin-top: 10px;height: 80px;">
+      <option value="0" selected>seleccione la cantidad de entradas</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+  </select>
+    
+    <select id="horarios" required style="margin-top: 10px;height: 80px;">
+        <option value="none">Seleccion un horario</option>
+        <option value="14:00">14:00</option>
+        <option value="16:00">16:00</option>
+        <option value="18:30">18:30</option>
+        <option value="20:15">18:30</option>
+        <option value="22:00">22:00</option>
+        <option value="00:00">00:00</option>
+    </select>
+
+  
+      <div id="contenedor" class="contenedor">
+      
+      </div>
+
+
+    <input type="number" placeholder="ingrese el monto" id="monto" required style="margin-top: 10px;height: 80px;">
+    
+    <button id="boton" class="boton_horarios" style="margin-top: 10px;height: 80px;">ver el precio</button>
+
+  </form>
+
+
+
+
+</div>    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.14/dist/sweetalert2.all.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./archivosJS/main.js"></script>
+    <script src="./archivosJS/horarios.js"></script>
+</body>
+</html>

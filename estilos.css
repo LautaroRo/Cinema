@@ -1,0 +1,184 @@
+.navbar-nav{
+    display: flex;
+    flex-grow: inherit;
+    justify-content: end;
+}
+
+
+.body{
+    background-color: black;
+}
+
+
+/*--porductos--*/
+.peliculas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: white;
+}
+
+.container{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.container > img {
+    width: 100%;
+    height: 300px;
+}
+
+.nombre_pelis{
+    color: white;
+    font-size: 300px;
+}
+
+.boton{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 3px;
+    height: 50px;
+}
+
+
+
+.boton:hover{
+    opacity: 0.7;
+}
+
+
+
+.titulo{
+    color: white;
+}
+
+.texto{
+    color: white;
+}
+
+
+.info-1{
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: #fff;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+}
+
+
+
+.botonCerrar{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.bodyRegistrate{
+    background: url("./backgrounds/imgRegistrate.jpeg");
+    background-size: cover;
+}
+
+.formulario_registrate{
+    background-color: black;
+    height: 300px;
+    width: 700px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 650px;
+    margin-top: 250px;
+}
+
+
+
+
+.body_horarios{
+    background: url(./backgrounds/backgroundHorarios.jpeg);
+    background-size: cover;
+}
+
+
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 400px;
+}
+
+
+
+.select{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 700px;
+}
+
+
+
+.fila{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: white;
+}
+
+.asiento{
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+
+.contenedor{
+    padding-top: 10px;
+}
+
+
+.asiento.seleccionado{
+    background: green;
+}
+
+
+.asiento.reservado{
+    background: red;
+}
+
+
+
+
+.no-mostrar{
+    display: none;
+}
